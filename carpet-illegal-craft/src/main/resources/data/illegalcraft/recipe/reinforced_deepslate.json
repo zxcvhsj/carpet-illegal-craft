@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "DDD",
+    "DND",
+    "DDD"
+  ],
+  "key": {
+    "D": "minecraft:deepslate",
+    "N": "minecraft:diamond"
+  },
+  "result": {
+    "id": "minecraft:reinforced_deepslate",
+    "count": 1
+  }
+}

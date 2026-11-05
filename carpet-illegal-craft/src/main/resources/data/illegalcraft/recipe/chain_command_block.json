@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "illegalcraft_command_blocks",
+  "pattern": [
+    "OAO",
+    "ARA",
+    "OAO"
+  ],
+  "key": {
+    "O": "minecraft:obsidian",
+    "A": "minecraft:amethyst_shard",
+    "R": "minecraft:redstone_block"
+  },
+  "result": {
+    "id": "minecraft:chain_command_block",
+    "count": 1
+  }
+}

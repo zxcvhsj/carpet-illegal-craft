@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "illegalcraft_command_blocks",
+  "pattern": [
+    "OQO",
+    "QRQ",
+    "OQO"
+  ],
+  "key": {
+    "O": "minecraft:obsidian",
+    "Q": "minecraft:quartz",
+    "R": "minecraft:redstone_block"
+  },
+  "result": {
+    "id": "minecraft:repeating_command_block",
+    "count": 1
+  }
+}

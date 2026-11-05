@@ -1,0 +1,76 @@
+{
+  "carpet.category.illegalcraft": "Illegal Crafting",
+
+  "carpet.rule.illegalBlockCraft.name": "Illegal block crafting (master switch)",
+  "carpet.rule.illegalBlockCraft.desc": "When off, none of the recipes below can be crafted. When on, each rule below decides.",
+  "carpet.rule.illegalBlockCraft.extra.0": "Usage: /carpet illegalBlockCraft true",
+
+  "carpet.rule.craftCommandBlock.name": "Craft command block (obsidian4+gold4+redstone block1)",
+  "carpet.rule.craftCommandBlock.desc": "Yields 1 command block. Grid: O=obsidian, G=gold ingot, R=redstone block",
+  "carpet.rule.craftCommandBlock.extra.0": "O G O",
+  "carpet.rule.craftCommandBlock.extra.1": "G R G",
+  "carpet.rule.craftCommandBlock.extra.2": "O G O",
+
+  "carpet.rule.craftChainCommandBlock.name": "Craft chain command block (obsidian4+amethyst4+redstone block1)",
+  "carpet.rule.craftChainCommandBlock.desc": "Yields 1 chain command block. Grid: O=obsidian, A=amethyst shard, R=redstone block",
+  "carpet.rule.craftChainCommandBlock.extra.0": "O A O",
+  "carpet.rule.craftChainCommandBlock.extra.1": "A R A",
+  "carpet.rule.craftChainCommandBlock.extra.2": "O A O",
+
+  "carpet.rule.craftRepeatingCommandBlock.name": "Craft repeating command block (obsidian4+quartz4+redstone block1)",
+  "carpet.rule.craftRepeatingCommandBlock.desc": "Yields 1 repeating command block. Grid: O=obsidian, Q=quartz, R=redstone block",
+  "carpet.rule.craftRepeatingCommandBlock.extra.0": "O Q O",
+  "carpet.rule.craftRepeatingCommandBlock.extra.1": "Q R Q",
+  "carpet.rule.craftRepeatingCommandBlock.extra.2": "O Q O",
+
+  "carpet.rule.craftStructureBlock.name": "Craft structure block (iron block4+diamond4+ender eye1)",
+  "carpet.rule.craftStructureBlock.desc": "Yields 1 structure block. Grid: I=iron block, D=diamond, E=ender eye",
+  "carpet.rule.craftStructureBlock.extra.0": "I D I",
+  "carpet.rule.craftStructureBlock.extra.1": "D E D",
+  "carpet.rule.craftStructureBlock.extra.2": "I D I",
+
+  "carpet.rule.craftStructureVoid.name": "Craft structure void (glass4+diamond1) -> 8",
+  "carpet.rule.craftStructureVoid.desc": "Shapeless: 4 glass + 1 diamond yields 8 structure voids",
+
+  "carpet.rule.craftBarrier.name": "Craft barrier (obsidian4+iron block4+diamond1) -> 4",
+  "carpet.rule.craftBarrier.desc": "Yields 4 barriers. Grid: O=obsidian, I=iron block, D=diamond",
+  "carpet.rule.craftBarrier.extra.0": "O I O",
+  "carpet.rule.craftBarrier.extra.1": "I D I",
+  "carpet.rule.craftBarrier.extra.2": "O I O",
+
+  "carpet.rule.craftLightBlock.name": "Craft light block (glowstone4+glass4+diamond1) -> 8",
+  "carpet.rule.craftLightBlock.desc": "Yields 8 light blocks. Grid: G=glowstone, L=glass, D=diamond",
+  "carpet.rule.craftLightBlock.extra.0": "G L G",
+  "carpet.rule.craftLightBlock.extra.1": "L D L",
+  "carpet.rule.craftLightBlock.extra.2": "G L G",
+
+  "carpet.rule.craftJigsaw.name": "Craft jigsaw block (deepslate tiles4+ender pearl4+diamond1)",
+  "carpet.rule.craftJigsaw.desc": "Yields 1 jigsaw block. Grid: T=deepslate tiles, P=ender pearl, D=diamond",
+  "carpet.rule.craftJigsaw.extra.0": "T P T",
+  "carpet.rule.craftJigsaw.extra.1": "P D P",
+  "carpet.rule.craftJigsaw.extra.2": "T P T",
+
+  "carpet.rule.craftBedrock.name": "Craft bedrock (obsidian8+netherite scrap1)",
+  "carpet.rule.craftBedrock.desc": "Yields 1 bedrock. Grid: O=obsidian, N=netherite scrap",
+  "carpet.rule.craftBedrock.extra.0": "O O O",
+  "carpet.rule.craftBedrock.extra.1": "O N O",
+  "carpet.rule.craftBedrock.extra.2": "O O O",
+
+  "carpet.rule.craftSpawner.name": "Craft spawner (iron block4+iron bars4+soul sand1)",
+  "carpet.rule.craftSpawner.desc": "Yields 1 spawner. Grid: I=iron block, B=iron bars, S=soul sand",
+  "carpet.rule.craftSpawner.extra.0": "I B I",
+  "carpet.rule.craftSpawner.extra.1": "B S B",
+  "carpet.rule.craftSpawner.extra.2": "I B I",
+
+  "carpet.rule.craftEndPortalFrame.name": "Craft end portal frame (end stone brick8+ender eye1)",
+  "carpet.rule.craftEndPortalFrame.desc": "Yields 1 end portal frame. Grid: E=end stone brick, Y=ender eye",
+  "carpet.rule.craftEndPortalFrame.extra.0": "E E E",
+  "carpet.rule.craftEndPortalFrame.extra.1": "E Y E",
+  "carpet.rule.craftEndPortalFrame.extra.2": "E E E",
+
+  "carpet.rule.craftReinforcedDeepslate.name": "Craft reinforced deepslate (deepslate8+diamond1)",
+  "carpet.rule.craftReinforcedDeepslate.desc": "Yields 1 reinforced deepslate. Grid: D=deepslate, N=diamond",
+  "carpet.rule.craftReinforcedDeepslate.extra.0": "D D D",
+  "carpet.rule.craftReinforcedDeepslate.extra.1": "D N D",
+  "carpet.rule.craftReinforcedDeepslate.extra.2": "D D D"
+}

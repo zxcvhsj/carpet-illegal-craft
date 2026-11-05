@@ -1,0 +1,74 @@
+plugins {
+	id 'net.fabricmc.fabric-loom' version "${loom_version}"
+	id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+	archivesName = project.archives_base_name
+}
+
+repositories {
+	// Carpet 本体发布在 Modrinth 的 Maven 仓库里
+	maven {
+		name = 'Modrinth'
+		url = 'https://api.modrinth.com/maven'
+		content {
+			includeGroup 'maven.modrinth'
+		}
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+	// 编译期需要 Carpet 的 carpet.api.settings.* 与 CarpetExtension，
+	// 运行时由玩家自己安装的 Carpet 提供，不会打进本模组。
+	implementation "maven.modrinth:carpet:${project.carpet_version}"
+}
+
+processResources {
+	def version = project.version
+	inputs.property 'version', version
+
+	filesMatching('fabric.mod.json') {
+		expand 'version': version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 25
+	it.options.encoding = 'UTF-8'
+}
+
+java {
+	// 构建时顺便产出 -sources.jar
+	withSourcesJar()
+
+	sourceCompatibility = JavaVersion.VERSION_25
+	targetCompatibility = JavaVersion.VERSION_25
+}
+
+jar {
+	def projectName = project.name
+	inputs.property 'projectName', projectName
+
+	from('LICENSE') {
+		rename { "${it}_$projectName" }
+	}
+}
+
+publishing {
+	publications {
+		create('mavenJava', MavenPublication) {
+			from components.java
+		}
+	}
+
+	repositories {
+	}
+}

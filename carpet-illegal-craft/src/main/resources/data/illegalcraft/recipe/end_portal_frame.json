@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "EEE",
+    "EYE",
+    "EEE"
+  ],
+  "key": {
+    "E": "minecraft:end_stone_bricks",
+    "Y": "minecraft:ender_eye"
+  },
+  "result": {
+    "id": "minecraft:end_portal_frame",
+    "count": 1
+  }
+}

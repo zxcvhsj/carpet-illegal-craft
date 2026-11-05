@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "TPT",
+    "PDP",
+    "TPT"
+  ],
+  "key": {
+    "T": "minecraft:deepslate_tiles",
+    "P": "minecraft:ender_pearl",
+    "D": "minecraft:diamond"
+  },
+  "result": {
+    "id": "minecraft:jigsaw",
+    "count": 1
+  }
+}

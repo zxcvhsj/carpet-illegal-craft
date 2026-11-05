@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:glass",
+    "minecraft:glass",
+    "minecraft:glass",
+    "minecraft:glass",
+    "minecraft:diamond"
+  ],
+  "result": {
+    "id": "minecraft:structure_void",
+    "count": 8
+  }
+}

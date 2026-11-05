@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "OOO",
+    "ONO",
+    "OOO"
+  ],
+  "key": {
+    "O": "minecraft:obsidian",
+    "N": "minecraft:netherite_scrap"
+  },
+  "result": {
+    "id": "minecraft:bedrock",
+    "count": 1
+  }
+}

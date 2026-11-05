@@ -1,0 +1,76 @@
+{
+  "carpet.category.illegalcraft": "违禁合成",
+
+  "carpet.rule.illegalBlockCraft.name": "违禁方块合成总开关（先开这个）",
+  "carpet.rule.illegalBlockCraft.desc": "关着时下面所有配方都合不出来；开启后由每条规则单独控制。",
+  "carpet.rule.illegalBlockCraft.extra.0": "用法：/carpet illegalBlockCraft true",
+
+  "carpet.rule.craftCommandBlock.name": "允许合成命令方块（黑曜石4+金锭4+红石块1）",
+  "carpet.rule.craftCommandBlock.desc": "产出 命令方块 ×1。九宫格：黑=黑曜石，金=金锭，红=红石块",
+  "carpet.rule.craftCommandBlock.extra.0": "黑 金 黑",
+  "carpet.rule.craftCommandBlock.extra.1": "金 红 金",
+  "carpet.rule.craftCommandBlock.extra.2": "黑 金 黑",
+
+  "carpet.rule.craftChainCommandBlock.name": "允许合成连锁命令方块（黑曜石4+紫水晶碎片4+红石块1）",
+  "carpet.rule.craftChainCommandBlock.desc": "产出 连锁命令方块 ×1。九宫格：黑=黑曜石，紫=紫水晶碎片，红=红石块",
+  "carpet.rule.craftChainCommandBlock.extra.0": "黑 紫 黑",
+  "carpet.rule.craftChainCommandBlock.extra.1": "紫 红 紫",
+  "carpet.rule.craftChainCommandBlock.extra.2": "黑 紫 黑",
+
+  "carpet.rule.craftRepeatingCommandBlock.name": "允许合成循环命令方块（黑曜石4+石英4+红石块1）",
+  "carpet.rule.craftRepeatingCommandBlock.desc": "产出 循环命令方块 ×1。九宫格：黑=黑曜石，英=石英，红=红石块",
+  "carpet.rule.craftRepeatingCommandBlock.extra.0": "黑 英 黑",
+  "carpet.rule.craftRepeatingCommandBlock.extra.1": "英 红 英",
+  "carpet.rule.craftRepeatingCommandBlock.extra.2": "黑 英 黑",
+
+  "carpet.rule.craftStructureBlock.name": "允许合成结构方块（铁块4+钻石4+末影之眼1）",
+  "carpet.rule.craftStructureBlock.desc": "产出 结构方块 ×1。九宫格：铁=铁块，钻=钻石，眼=末影之眼",
+  "carpet.rule.craftStructureBlock.extra.0": "铁 钻 铁",
+  "carpet.rule.craftStructureBlock.extra.1": "钻 眼 钻",
+  "carpet.rule.craftStructureBlock.extra.2": "铁 钻 铁",
+
+  "carpet.rule.craftStructureVoid.name": "允许合成结构空位（玻璃4+钻石1）→ 8个",
+  "carpet.rule.craftStructureVoid.desc": "无序合成：玻璃×4 + 钻石×1，产出 结构空位 ×8，任意摆法都行",
+
+  "carpet.rule.craftBarrier.name": "允许合成屏障（黑曜石4+铁块4+钻石1）→ 4个",
+  "carpet.rule.craftBarrier.desc": "产出 屏障 ×4。九宫格：黑=黑曜石，铁=铁块，钻=钻石",
+  "carpet.rule.craftBarrier.extra.0": "黑 铁 黑",
+  "carpet.rule.craftBarrier.extra.1": "铁 钻 铁",
+  "carpet.rule.craftBarrier.extra.2": "黑 铁 黑",
+
+  "carpet.rule.craftLightBlock.name": "允许合成光源方块（荧石4+玻璃4+钻石1）→ 8个",
+  "carpet.rule.craftLightBlock.desc": "产出 光源方块 ×8。九宫格：荧=荧石，玻=玻璃，钻=钻石",
+  "carpet.rule.craftLightBlock.extra.0": "荧 玻 荧",
+  "carpet.rule.craftLightBlock.extra.1": "玻 钻 玻",
+  "carpet.rule.craftLightBlock.extra.2": "荧 玻 荧",
+
+  "carpet.rule.craftJigsaw.name": "允许合成拼图方块（深板岩瓦4+末影珍珠4+钻石1）",
+  "carpet.rule.craftJigsaw.desc": "产出 拼图方块 ×1。九宫格：瓦=深板岩瓦，珠=末影珍珠，钻=钻石",
+  "carpet.rule.craftJigsaw.extra.0": "瓦 珠 瓦",
+  "carpet.rule.craftJigsaw.extra.1": "珠 钻 珠",
+  "carpet.rule.craftJigsaw.extra.2": "瓦 珠 瓦",
+
+  "carpet.rule.craftBedrock.name": "允许合成基岩（黑曜石8+下界合金碎片1）",
+  "carpet.rule.craftBedrock.desc": "产出 基岩 ×1。九宫格：黑=黑曜石，片=下界合金碎片",
+  "carpet.rule.craftBedrock.extra.0": "黑 黑 黑",
+  "carpet.rule.craftBedrock.extra.1": "黑 片 黑",
+  "carpet.rule.craftBedrock.extra.2": "黑 黑 黑",
+
+  "carpet.rule.craftSpawner.name": "允许合成刷怪笼（铁块4+铁栏杆4+灵魂沙1）",
+  "carpet.rule.craftSpawner.desc": "产出 刷怪笼 ×1。九宫格：铁=铁块，栏=铁栏杆，魂=灵魂沙",
+  "carpet.rule.craftSpawner.extra.0": "铁 栏 铁",
+  "carpet.rule.craftSpawner.extra.1": "栏 魂 栏",
+  "carpet.rule.craftSpawner.extra.2": "铁 栏 铁",
+
+  "carpet.rule.craftEndPortalFrame.name": "允许合成末地传送门框架（末地石砖8+末影之眼1）",
+  "carpet.rule.craftEndPortalFrame.desc": "产出 末地传送门框架 ×1。九宫格：砖=末地石砖，眼=末影之眼",
+  "carpet.rule.craftEndPortalFrame.extra.0": "砖 砖 砖",
+  "carpet.rule.craftEndPortalFrame.extra.1": "砖 眼 砖",
+  "carpet.rule.craftEndPortalFrame.extra.2": "砖 砖 砖",
+
+  "carpet.rule.craftReinforcedDeepslate.name": "允许合成强化深板岩（深板岩8+钻石1）",
+  "carpet.rule.craftReinforcedDeepslate.desc": "产出 强化深板岩 ×1。九宫格：深=深板岩，钻=钻石",
+  "carpet.rule.craftReinforcedDeepslate.extra.0": "深 深 深",
+  "carpet.rule.craftReinforcedDeepslate.extra.1": "深 钻 深",
+  "carpet.rule.craftReinforcedDeepslate.extra.2": "深 深 深"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IBI",
+    "BSB",
+    "IBI"
+  ],
+  "key": {
+    "I": "minecraft:iron_block",
+    "B": "minecraft:iron_bars",
+    "S": "minecraft:soul_sand"
+  },
+  "result": {
+    "id": "minecraft:spawner",
+    "count": 1
+  }
+}

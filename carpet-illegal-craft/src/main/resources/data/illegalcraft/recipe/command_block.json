@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "illegalcraft_command_blocks",
+  "pattern": [
+    "OGO",
+    "GRG",
+    "OGO"
+  ],
+  "key": {
+    "O": "minecraft:obsidian",
+    "G": "minecraft:gold_ingot",
+    "R": "minecraft:redstone_block"
+  },
+  "result": {
+    "id": "minecraft:command_block",
+    "count": 1
+  }
+}
